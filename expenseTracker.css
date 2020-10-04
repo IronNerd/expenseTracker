@@ -1,0 +1,175 @@
+body {
+  background-color: #f1f1f1;
+}
+body,
+input {
+  font-size: 3.5vmin;
+}
+h1,
+h3 {
+  text-align: center;
+}
+h3 {
+  color: green;
+}
+hr {
+  border: 1px solid #f1f1f1;
+}
+
+p {
+  height: 1em;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+#description {
+  width: 99%;
+}
+#wrapper1,
+#div0 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+#div1 {
+  height: fit-content;
+}
+
+#div2 {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+label:first-of-type {
+  margin-right: 0.5em;
+  font-weight: bold;
+}
+
+#post {
+  display: block;
+  background-color: green;
+  color: white;
+  font-size: 3vmin;
+  font-weight: bold;
+  border-radius: 0.2em;
+  height: fit-content;
+  padding: 0.2em 0.25em;
+}
+
+#boldText {
+  /* 
+   */
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#netBalance {
+  border: 1px solid black;
+  padding: 0.25em 0.5em;
+  border-radius: 0.3em;
+  background-color: white;
+  font-weight: normal;
+}
+
+#div3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+#hrHeader {
+  border-color: black;
+  margin-bottom: 0px;
+}
+/*
+Styling for table elements:
+*/
+
+#eraseHeader {
+  background-color: transparent;
+  font-weight: bold;
+  color: black;
+  border-color: black;
+  border-radius: 0.3em;
+  padding: 0.1em 0.3em;
+  text-align: center;
+}
+
+header {
+  /* For table header tittles*/
+  font-weight: bold;
+}
+
+.eraseExpense {
+  /* For red delete buttons */
+  background-color: red;
+  font-weight: bold;
+  color: white;
+  border-radius: 0.3em;
+  padding: 0.1em 0.3em;
+  text-align: center;
+}
+
+header span,
+header button,
+#eraseHeader,
+.date,
+.eraseExpense,
+.description,
+.amount {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.eraseExpense,
+#eraseHeader {
+  flex-direction: column;
+}
+
+.amount,
+#amountHeader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+.date,
+#dateHeader {
+  /* outline: 1px solid red; */
+  width: 30vw;
+}
+.eraseExpense,
+#eraseHeader {
+  justify-content: center;
+  /* outline: 1px solid red; */
+  margin-left: 3vw;
+  margin-right: 5vw;
+}
+.description,
+#descriptionHeader {
+  /* outline: 1px solid red; */
+  width: 50vw;
+}
+.amount,
+#amountHeader {
+  /* outline: 1px solid red; */
+  width: 20vw;
+}
+
+.expenseItem:nth-child(odd) {
+  /* For able data rows */
+  background-color: honeydew;
+}
+
+header,
+.expenseItem {
+  /* For whole rows padding-left: 0.5em;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
