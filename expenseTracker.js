@@ -14,7 +14,7 @@ function restoreFromStorage() {
     // first run procedure
     console.log(`2) Nothing in storage. Loading placeholder row to buffer...`);
     bufferContent = [
-      `<p class = "expenseItem" ><span class = "date" ></span><button class="eraseExpense" >x</button><span class = "description" >Nothing posted yet   :-)</span><span class="amount" ></span ></p>`,
+      `<p class = "expenseItem" ><span class = "date" ></span><button class="eraseExpense" >x</button><span class = "description" >1st item could be your starting balance :-)</span><span class="amount" ></span ></p>`,
     ];
     console.log(`Done!!
   `);
